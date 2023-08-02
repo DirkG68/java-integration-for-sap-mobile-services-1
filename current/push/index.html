@@ -13,7 +13,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.3">
+      <meta name="generator" content="mkdocs-1.5.0, mkdocs-material-9.1.21">
     
     
       
@@ -21,10 +21,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.c4a75a56.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.eebd395e.min.css">
       
       
 
@@ -50,14 +47,11 @@
   </head>
   
   
-    
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr">
   
     
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -841,7 +835,7 @@ PushPayload builder:</p>
 <table>
 <thead>
 <tr>
-<th align="center">Property</th>
+<th style="text-align: center;">Property</th>
 <th>Description</th>
 <th>APNs Mapping/Notes</th>
 <th>FCM Mapping/Notes</th>
@@ -850,28 +844,28 @@ PushPayload builder:</p>
 </thead>
 <tbody>
 <tr>
-<td align="center"><code>alert</code></td>
+<td style="text-align: center;"><code>alert</code></td>
 <td>Single message shown on the device</td>
 <td><code>alert.title</code></td>
 <td><code>alert</code></td>
 <td>Supported by W3C and WNS</td>
 </tr>
 <tr>
-<td align="center"><code>badge</code></td>
+<td style="text-align: center;"><code>badge</code></td>
 <td>Number shown at the app icon on the device screen</td>
 <td>Directly set by the notification manager when app is idle or inactive</td>
 <td>Handled by notification callback</td>
 <td>not supported by W3C</td>
 </tr>
 <tr>
-<td align="center"><code>sound</code></td>
+<td style="text-align: center;"><code>sound</code></td>
 <td>Sound played back when notification is shown</td>
 <td>References sound file in '/Library/Sounds'</td>
 <td>References sound file in app resource folder <code>res/raw</code></td>
 <td>not supported by W3C</td>
 </tr>
 <tr>
-<td align="center"><code>data</code></td>
+<td style="text-align: center;"><code>data</code></td>
 <td>Dictionary (key/value map)</td>
 <td>Handed over to notification callback, implemented by device</td>
 <td>Handled by notification callback</td>
@@ -883,7 +877,7 @@ PushPayload builder:</p>
 <table>
 <thead>
 <tr>
-<th align="center">Property</th>
+<th style="text-align: center;">Property</th>
 <th>Description</th>
 <th>APNs Mapping/Notes</th>
 <th>FCM Mapping/Notes</th>
@@ -892,7 +886,7 @@ PushPayload builder:</p>
 </thead>
 <tbody>
 <tr>
-<td align="center"><code>priority</code></td>
+<td style="text-align: center;"><code>priority</code></td>
 <td>Notification delivery priority <code>high</code> or <code>normal</code></td>
 <td>Translated to integer value</td>
 <td>Used directly</td>
@@ -972,10 +966,10 @@ PushPayload builder:</p>
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.efa0ade1.min.js"></script>
+      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
       
     
   </body>
